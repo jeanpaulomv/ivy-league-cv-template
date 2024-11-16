@@ -120,12 +120,14 @@ body {
     font-size: 1.2em;
     margin: 0;
     font-weight: bold;
+    line-height: 1; /* Interlineado ajustado a 1 */
 }
 
 .job-header h4 {
     margin: 5px 0;
     font-size: 1em;
     color: #888;
+    line-height: 1; /* Interlineado ajustado a 1 */
 }
 
 .job p {
@@ -156,25 +158,68 @@ body {
     line-height: 1; /* Interlineado ajustado a 1 */
 }
 
-/* Certificaciones */
 .certifications-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajuste responsivo */
+    gap: 15px;
 }
 
 .certification-item {
-    background: #f0f0f0;
+    background: #f9f9f9;
     padding: 15px;
     text-align: center;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certification-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .certification-item i {
-    font-size: 2em;
+    font-size: 2.5em;
+    color: #0073b1;
     margin-bottom: 10px;
 }
+
+.certification-item p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #333;
+    line-height: 1.2;
+}
+
+.cert-source {
+    font-size: 0.9em;
+    color: #666;
+    font-style: italic;
+}
+
+/* Certificaciones */
+.certifications-list {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin margen interno */
+    margin: 0; /* Sin margen externo */
+    font-size: 1em; /* Tamaño consistente */
+    line-height: 1; /* Interlineado ajustado */
+    color: #333; /* Color base para el texto */
+}
+
+.certifications-list li {
+    margin-bottom: 10px; /* Espaciado entre ítems */
+}
+
+.certificate {
+    color: grey; /* Color gris para el nombre del certificado */
+    font-weight: bold; /* Negrita para destacar */
+}
+
+.institution {
+    color: black; /* Color negro para la institución */
+}
+
 
 /* Habilidades e Idiomas */
 .cv-section p {
@@ -191,4 +236,18 @@ body {
 .small-text {
     font-size: 0.9em; /* Ajuste el tamaño para que sea un poco más pequeño */
     line-height: 1; /* Interlineado ajustado a 1 */
+}
+
+.skills p {
+    margin: 5px 0;
+    line-height: 1; /* Interlineado ajustado a 1 */
+}
+
+@media print {
+    .certificate {
+        color: black !important; /* Asegura que se mantenga en negro al imprimir */
+    }
+    .institution {
+        color: black !important; /* Asegura que se mantenga en negro al imprimir */
+    }
 }

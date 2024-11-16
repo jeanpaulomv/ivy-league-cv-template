@@ -5,10 +5,9 @@ body {
     padding: 0;
     background-color: #f5f5f5;
     color: #333;
-    line-height: 1; /* Interlineado ajustado a 1 */
+    line-height: 1; /* Interlineado ajustado */
 }
 
-/* Contenedor principal */
 .cv-container {
     max-width: 800px;
     margin: 20px auto;
@@ -36,14 +35,14 @@ body {
 .cv-header h1 {
     font-size: 2em;
     font-weight: bold;
-    margin: 5px 0; /* Espaciado ajustado */
+    margin: 5px 0;
     color: #000;
 }
 
 .cv-header h2 {
     font-size: 1.2em;
     color: #555;
-    margin: 3px 0; /* Espaciado ajustado */
+    margin: 3px 0;
 }
 
 .cv-header p {
@@ -51,7 +50,6 @@ body {
     color: #777;
 }
 
-/* Alineación de los elementos de contacto */
 .contact-info {
     display: flex;
     justify-content: center;
@@ -59,31 +57,26 @@ body {
     font-size: 1em;
     color: #555;
     margin-top: 10px;
-    flex-wrap: wrap; /* Permite que los elementos se ajusten si la pantalla es pequeña */
+    flex-wrap: wrap;
 }
 
 .contact-info i {
-    margin-right: 5px; /* Espaciado entre icono y texto */
+    margin-right: 5px;
 }
 
 .contact-info a {
     color: #0073b1;
     text-decoration: none;
-    margin-right: 15px; /* Espaciado entre los elementos */
+    margin-right: 15px;
 }
 
 .contact-info a:hover {
     text-decoration: underline;
 }
 
-.contact-info span {
-    margin-right: 15px; /* Espaciado entre los elementos */
-}
-
-/* Secciones generales */
+/* Secciones Generales */
 .cv-section {
-    margin-bottom: 10px; /* Espaciado ajustado */
-    line-height: 1; /* Interlineado ajustado a 1 */
+    margin-bottom: 10px;
 }
 
 .cv-section h2 {
@@ -95,24 +88,30 @@ body {
     padding-bottom: 5px;
 }
 
-/* Para evitar que una sección se divida en la mitad */
-.cv-section {
-    page-break-inside: avoid; /* Evita que el contenido se divida */
-}
-
 /* Perfil Profesional */
-.professional_profile {
-    margin-bottom: 8px; /* Espacio ajustado */
-}
-
 .professional_profile p {
     margin: 5px 0;
-    line-height: 1; /* Interlineado ajustado a 1 */
+}
+
+/* Habilidades */
+.skills p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #555;
+}
+
+.skills p strong {
+    color: grey;
+    font-weight: bold;
+}
+
+.small-text {
+    font-size: 0.9em;
 }
 
 /* Experiencia */
 .job {
-    margin-bottom: 8px; /* Espaciado ajustado */
+    margin-bottom: 8px;
 }
 
 .job-header h3 {
@@ -120,26 +119,19 @@ body {
     font-size: 1.2em;
     margin: 0;
     font-weight: bold;
-    line-height: 1; /* Interlineado ajustado a 1 */
 }
 
 .job-header h4 {
     margin: 5px 0;
     font-size: 1em;
     color: #888;
-    line-height: 1; /* Interlineado ajustado a 1 */
 }
 
 .job p {
     margin: 5px 0;
-    line-height: 1; /* Interlineado ajustado a 1 */
 }
 
 /* Educación */
-.education {
-    margin-bottom: 8px; /* Espaciado ajustado */
-}
-
 .education-header h3 {
     color: #555;
     font-size: 1.2em;
@@ -155,12 +147,12 @@ body {
 
 .education p {
     margin: 5px 0;
-    line-height: 1; /* Interlineado ajustado a 1 */
 }
 
+/* Certificaciones */
 .certifications-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajuste responsivo */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
 }
 
@@ -188,7 +180,6 @@ body {
     margin: 5px 0;
     font-size: 1em;
     color: #333;
-    line-height: 1.2;
 }
 
 .cert-source {
@@ -197,25 +188,9 @@ body {
     font-style: italic;
 }
 
-
-/* Habilidades e Idiomas */
+/* Idiomas */
 .cv-section p {
     font-size: 1em;
     color: #555;
-    line-height: 1; /* Interlineado ajustado a 1 */
-}
-
-.cv-section p strong {
-    color: grey;
-    font-weight: bold;
-}
-
-.small-text {
-    font-size: 0.9em; /* Ajuste el tamaño para que sea un poco más pequeño */
-    line-height: 1; /* Interlineado ajustado a 1 */
-}
-
-.skills p {
     margin: 5px 0;
-    line-height: 1; /* Interlineado ajustado a 1 */
 }

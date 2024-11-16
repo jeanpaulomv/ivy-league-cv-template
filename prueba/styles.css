@@ -1,0 +1,194 @@
+/* General */
+body {
+    font-family: 'Volkhov', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1; /* Interlineado ajustado a 1 */
+}
+
+/* Contenedor principal */
+.cv-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado */
+.cv-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 10px;
+    display: block;
+}
+
+.cv-header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 5px 0; /* Espaciado ajustado */
+    color: #000;
+}
+
+.cv-header h2 {
+    font-size: 1.2em;
+    color: #555;
+    margin: 3px 0; /* Espaciado ajustado */
+}
+
+.cv-header p {
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Alineación de los elementos de contacto */
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    color: #555;
+    margin-top: 10px;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten si la pantalla es pequeña */
+}
+
+.contact-info i {
+    margin-right: 5px; /* Espaciado entre icono y texto */
+}
+
+.contact-info a {
+    color: #0073b1;
+    text-decoration: none;
+    margin-right: 15px; /* Espaciado entre los elementos */
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info span {
+    margin-right: 15px; /* Espaciado entre los elementos */
+}
+
+/* Secciones generales */
+.cv-section {
+    margin-bottom: 10px; /* Espaciado ajustado */
+    line-height: 1; /* Interlineado ajustado a 1 */
+}
+
+.cv-section h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Para evitar que una sección se divida en la mitad */
+.cv-section {
+    page-break-inside: avoid; /* Evita que el contenido se divida */
+}
+
+/* Perfil Profesional */
+.professional_profile {
+    margin-bottom: 8px; /* Espacio ajustado */
+}
+
+.professional_profile p {
+    margin: 5px 0;
+    line-height: 1; /* Interlineado ajustado a 1 */
+}
+
+/* Experiencia */
+.job {
+    margin-bottom: 8px; /* Espaciado ajustado */
+}
+
+.job-header h3 {
+    color: #555;
+    font-size: 1.2em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.job-header h4 {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #888;
+}
+
+.job p {
+    margin: 5px 0;
+    line-height: 1; /* Interlineado ajustado a 1 */
+}
+
+/* Educación */
+.education {
+    margin-bottom: 8px; /* Espaciado ajustado */
+}
+
+.education-header h3 {
+    color: #555;
+    font-size: 1.2em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.education-header h4 {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #888;
+}
+
+.education p {
+    margin: 5px 0;
+    line-height: 1; /* Interlineado ajustado a 1 */
+}
+
+/* Certificaciones */
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 10px;
+}
+
+.certification-item {
+    background: #f0f0f0;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.certification-item i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Habilidades e Idiomas */
+.cv-section p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1; /* Interlineado ajustado a 1 */
+}
+
+.cv-section p strong {
+    color: grey;
+    font-weight: bold;
+}
+
+.small-text {
+    font-size: 0.9em; /* Ajuste el tamaño para que sea un poco más pequeño */
+    line-height: 1; /* Interlineado ajustado a 1 */
+}

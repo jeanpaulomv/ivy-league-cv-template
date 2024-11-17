@@ -181,4 +181,12 @@ body {
     .institution {
         color: black !important;
     }
+    body {
+        background-color: white;
+    }
+    .cv-container {
+        box-shadow: none;
+        margin: 0;
+        padding: 20px;
+    }
 }

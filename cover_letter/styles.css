@@ -1,4 +1,4 @@
-/* General */
+/* Estilo para el texto de la carta */
 body {
     font-family: 'Volkhov', serif;
     margin: 0;
@@ -17,7 +17,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Encabezado */
+/* Encabezados */
 .cv-header {
     text-align: center;
     margin-bottom: 20px;
@@ -82,98 +82,6 @@ body {
     color: #000;
     border-bottom: 1px solid #ddd;
     padding-bottom: 5px;
-}
-
-/* Perfil Profesional */
-.professional_profile p {
-    margin: 5px 0;
-    line-height: 1;
-}
-
-/* Habilidades */
-.skills p {
-    margin: 5px 0;
-    font-size: 1em;
-    color: #555;
-    line-height: 1;
-}
-
-.skills p strong {
-    color: grey;
-    font-weight: bold;
-}
-
-.small-text {
-    font-size: 0.9em;
-}
-
-/* Experiencia */
-.job {
-    margin-bottom: 8px;
-}
-
-.job-header h3 {
-    color: #555;
-    font-size: 1.2em;
-    margin: 0;
-    font-weight: bold;
-}
-
-.job-header h4 {
-    margin: 5px 0;
-    font-size: 1em;
-    color: #888;
-}
-
-.job p {
-    margin: 5px 0;
-}
-
-/* Educación */
-.education-header h3 {
-    color: #555;
-    font-size: 1.2em;
-    margin: 0;
-    font-weight: bold;
-}
-
-.education-header h4 {
-    margin: 5px 0;
-    font-size: 1em;
-    color: #888;
-}
-
-.education p {
-    margin: 5px 0;
-}
-
-/* Certificaciones */
-.certifications-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    font-size: 1em;
-    line-height: 1;
-    color: #333;
-}
-
-.certifications-list li {
-    margin-bottom: 10px;
-}
-
-.certificate {
-    color: grey;
-    font-weight: bold;
-}
-
-.institution {
-    color: black;
-}
-
-/* Idiomas */
-.cv-section p strong {
-    color: grey;
-    font-weight: bold;
 }
 
 @media print {

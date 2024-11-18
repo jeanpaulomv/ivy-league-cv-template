@@ -49,4 +49,6 @@ Feel free to submit issues and pull requests for improvements or bug fixes. Cont
 
 ## Contact
 
-For any questions or support, please contact me at [jeanpaulomv@hotmail.com](mailto:jeanpaulomv@hotmail.com).
+For any questions or support, please contact me at LinkedIn.
+
+<a href="https://www.linkedin.com/in/jeanpaulomv/"><img src="https://img.shields.io/badge/jeanpaulomv-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="30"></a>.

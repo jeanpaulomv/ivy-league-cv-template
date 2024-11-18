@@ -16,9 +16,7 @@ A responsive and clean **CV and Cover Letter** template, designed in the Ivy Lea
 
 View a live preview of the **Ivy League Style CV and Cover Letter** on GitHub Pages:
 
-[**Live Demo**](https://github.com/jeanpaulomv/ivy-league-cv-template/)
-
-Replace `<your-username>` with your GitHub username and `<your-repository-name>` with the name of the repository where the project is hosted.
+[**Live Demo**](https://jeanpaulomv.github.io/ivy-league-cv-template/)
 
 ## Why Choose This Template?
 

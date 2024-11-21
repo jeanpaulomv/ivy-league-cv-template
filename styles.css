@@ -107,6 +107,28 @@ body {
     font-size: 0.9em;
 }
 
+/* Proyectos */
+.project {
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    color: #555;
+    font-size: 1.2em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.project p {
+    margin: 5px 0;
+}
+
+.small-text {
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1;
+}
+
 /* Experiencia */
 .job {
     margin-bottom: 8px;
@@ -154,7 +176,6 @@ body {
     margin: 0;
     font-size: 1em;
     line-height: 1;
-    color: #333;
 }
 
 .certifications-list li {
@@ -162,12 +183,13 @@ body {
 }
 
 .certificate {
-    color: grey;
+    color: #555;
     font-weight: bold;
 }
 
 .institution {
-    color: black;
+    font-size: 0.9em;
+    color: #555;
 }
 
 /* Idiomas */

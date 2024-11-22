@@ -9,12 +9,12 @@ body {
 }
 
 .cv-container {
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 210mm; /* Ancho de A4 */
+    margin: 10mm auto; /* Márgenes en milímetros */
     background: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15mm; /* Espacio interno optimizado */
+    border-radius: 5px; /* Esquinas menos redondeadas para documentos formales */
+    box-shadow: none; /* Eliminar sombras para impresión */
 }
 
 /* Encabezado */
@@ -24,8 +24,8 @@ body {
 }
 
 .profile-pic {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
     margin: 0 auto 10px;
@@ -33,7 +33,7 @@ body {
 }
 
 .cv-header h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     margin: 5px 0;
     color: #000;
@@ -71,12 +71,12 @@ body {
 
 /* Secciones generales */
 .cv-section {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     page-break-inside: avoid;
 }
 
 .cv-section h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 10px;
     color: #000;
@@ -91,54 +91,70 @@ body {
 }
 
 /* Habilidades */
-.skills p {
-    margin: 5px 0;
+.skills {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     font-size: 1em;
-    color: #555;
     line-height: 1;
 }
 
-.skills p strong {
-    color: grey;
+.skills li {
+    margin-bottom: 5px;
+}
+
+/* Proyectos */
+.project h3 {
+    color: #555;
+    font-size: 1em;
+    margin-bottom: 5px;
     font-weight: bold;
+}
+
+.project p {
+    margin: 0px 0;
+}
+
+.project p strong {
+    color: #555;
+    font-weight: bold;
+    margin: 0px 0;
 }
 
 .small-text {
     font-size: 0.9em;
+    color: #555;
+    line-height: 1;
 }
 
 /* Experiencia */
-.job {
-    margin-bottom: 8px;
-}
-
 .job-header h3 {
     color: #555;
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 0;
     font-weight: bold;
 }
 
 .job-header h4 {
-    margin: 5px 0;
+    margin: 0px 0;
     font-size: 1em;
     color: #888;
 }
 
 .job p {
-    margin: 5px 0;
+    margin: 0px 0;
 }
 
 /* Educación */
 .education-header h3 {
     color: #555;
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 0;
     font-weight: bold;
 }
 
 .education-header h4 {
-    margin: 5px 0;
+    margin: 0px 0;
     font-size: 1em;
     color: #888;
 }
@@ -154,20 +170,10 @@ body {
     margin: 0;
     font-size: 1em;
     line-height: 1;
-    color: #333;
 }
 
 .certifications-list li {
-    margin-bottom: 10px;
-}
-
-.certificate {
-    color: grey;
-    font-weight: bold;
-}
-
-.institution {
-    color: black;
+    margin-bottom: 5px;
 }
 
 /* Idiomas */
@@ -177,10 +183,6 @@ body {
 }
 
 @media print {
-    .certificate,
-    .institution {
-        color: black !important;
-    }
     body {
         background-color: white;
     }

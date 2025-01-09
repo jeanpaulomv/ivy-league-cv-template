@@ -103,30 +103,6 @@ body {
     margin-bottom: 5px;
 }
 
-/* Proyectos */
-.project h3 {
-    color: #555;
-    font-size: 1em;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.project p {
-    margin: 0px 0;
-}
-
-.project p strong {
-    color: #555;
-    font-weight: bold;
-    margin: 0px 0;
-}
-
-.small-text {
-    font-size: 0.9em;
-    color: #555;
-    line-height: 1;
-}
-
 /* Experiencia */
 .job-header h3 {
     color: #555;
@@ -161,6 +137,30 @@ body {
 
 .education p {
     margin: 5px 0;
+}
+
+/* Proyectos */
+.project h3 {
+    color: #555;
+    font-size: 1em;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.project p {
+    margin: 0px 0;
+}
+
+.project p strong {
+    color: #555;
+    font-weight: bold;
+    margin: 0px 0;
+}
+
+.small-text {
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1;
 }
 
 /* Certificaciones */

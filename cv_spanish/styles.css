@@ -191,4 +191,12 @@ body {
         margin: 0;
         padding: 20px;
     }
+
+    @page:first {
+        margin-top: 10mm; /* Mantiene el margen estándar en la primera página */
+    }
+
+    @page {
+        margin-top: 30mm; /* Aumenta el margen superior en la segunda página en adelante */
+    }
 }
